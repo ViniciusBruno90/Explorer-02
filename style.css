@@ -1,0 +1,10 @@
+:root {
+  --color-logo: rgba(137, 197, 204, 1);
+  --color-navegation-superior: rgba(31, 21, 52, 1);
+  --header-text-treinos-h1:rgba(0, 0, 0, 1);
+  --header-text-exclusivos-h1:rgba(137, 197, 204, 1);
+  --header-text-p:rgba(125, 121, 135, 1);
+  --button-color:rgba(105, 185, 157, 1);
+  --button-text:rgba(249, 249, 249, 1);
+  --footer-text:rgba(0, 0, 0, 1);
+ }
