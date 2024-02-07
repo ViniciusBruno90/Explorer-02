@@ -3,24 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./image/musculacao.ico"
+      type="image/x-icon"
+    />
     <title>Treine.me</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="page">
-      <header>
-        <img src="./image/logo.svg" alt="Treine.me" />
+      <!-- essa teg sera para por como navegação -->
+      <nav>
+        <a id="logo" href="#">
+          <img src="./image/logo.svg" alt="Treine.me" />
+        </a>
+        <!-- UL lista nao ordenada  e OL lista ordenada -->
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Treinar</a></li>
+        </ul>
+      </nav>
 
-        <!-- essa teg sera para por como navegação -->
-        <nav>
-          <!-- UL lista nao ordenada  e OL lista ordenada -->
-          <ul>
-            <li>HOME</li>
-            <li>Sobre</li>
-            <li>Treinar</li>
-          </ul>
-        </nav>
-      </header>
       <main>
         <section>
           <!--Tag SECTIO é para semantica melhor da pagina, ela nao substitui uma DIV-->
@@ -39,16 +44,32 @@
           </button>
         </section>
 
-        <img src="./image/fitness-jump.svg" alt="Moça malhando com uma corda de pular!">
-
+        <img
+          src="./image/fitness-jump.svg"
+          alt="Moça malhando com uma corda de pular!"
+        />
       </main>
       <footer>
-          fale concosco no instagram 
-          <a href="https://www.instagram.com/bluefitacademia/" target="_blank">@treine.me</a>
+        fale concosco no instagram
+        <a href="https://www.instagram.com/bluefitacademia/" target="_blank"
+          >@treine.me</a
+        >
       </footer>
     </div>
 
-    <img src="./image/balls-decoration.svg" alt="bolinhas verdes de decoração">
+    <img
+      src="./image/balls-decoration.svg"
+      alt="bolinhas verdes de decoração"
+    />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
+  <!-- https://ionic.io/ionicons para icones -->
 </html>
