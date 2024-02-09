@@ -26,7 +26,6 @@ body {
   width: 1000px;
   margin: 0 auto;
   padding-top: 65px;
-
 }
 
 nav {
@@ -51,10 +50,13 @@ nav ul {
 ul li a {
   text-decoration: none;
   color: var(--text-color-home);
+
+  opacity: 0.5;
 }
 /* esse : = pseudo class */
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 main {
